@@ -1,0 +1,54 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    display: inline-flex;
+}
+
+.go-right {
+    float: right;
+    margin: 0 11px 0 0;
+    padding: 11px;
+    background-color: #FFCACA;
+    width: 35%;
+}
+
+.go-left {
+    float: left;
+    margin: 0 0 0 11px;
+    padding: 11px;
+    /*background-color: #FFECEF;*/
+    width: 210px;
+    background: hsla(351, 100%, 96%, 1);
+    background: linear-gradient(90deg, hsla(351, 100%, 96%, 1) 36%, hsla(0, 100%, 90%, 1) 100%);
+
+}
+
+img {
+    height: 200px;
+    border: thick double #FF8787;
+    border-radius: 50%;
+}
+
+a {
+    color: #e77a7a;
+    text-decoration: none;
+}
+
+#abt-me {
+    text-align: justify;
+}
+
+#icons {
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+.fa-brands {
+    color: #FF8787;
+}
